@@ -7,64 +7,75 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <h1>🚀 Starcoder8</h1>
-      <p>Full-Stack Web/Mobile Developer | Web3 Enthusiast</p>
-    </div>
-  </header>
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-  <section class="about container">
-    <h2>About Me</h2>
-    <p>
-      I’m a full-stack developer passionate about building scalable, high-performance applications. 
-      With expertise in both web and mobile development, I create end-to-end solutions integrating modern 
-      frameworks, databases, and third-party APIs.
-    </p>
+  <!-- Hero -->
+  <section id="hero">
+    <h1>Hi, I'm <span class="highlight">Starcoder8</span> 🚀</h1>
+    <p>Full-Stack Web/Mobile Developer | Web3 Enthusiast</p>
+    <div class="buttons">
+      <a href="#projects" class="btn">View My Work</a>
+      <a href="#contact" class="btn secondary">Contact Me</a>
+    </div>
   </section>
 
-  <section class="skills container">
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I build scalable, high-performance applications with modern frameworks and robust backend integrations. Passionate about Web3, APIs, and fullstack development.</p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
     <h2>Tech Stack</h2>
     <ul>
-      <li><strong>Frontend:</strong> React, Next.js, Vue.js</li>
-      <li><strong>Backend:</strong> Node.js, NestJS, Laravel, Java (Spring/Maven)</li>
-      <li><strong>Mobile:</strong> React Native, PWA</li>
-      <li><strong>Web3:</strong> Smart Contracts, dApps, Blockchain Integrations</li>
-      <li><strong>Databases:</strong> MySQL, PostgreSQL, MongoDB</li>
-      <li><strong>API Integrations:</strong> Shopify, Amazon, Rakuten, Yahoo, Temu</li>
-      <li><strong>Other:</strong> REST APIs, Authentication, CI/CD, Cloud Deployments</li>
+      <li>React, Next.js, Vue.js</li>
+      <li>Node.js, NestJS, Laravel, Java (Maven)</li>
+      <li>React Native, PWA</li>
+      <li>Web3, dApps, Smart Contracts</li>
+      <li>MySQL, PostgreSQL, MongoDB</li>
+      <li>Shopify, Amazon, Rakuten, Yahoo, Temu API Integrations</li>
     </ul>
   </section>
 
-  <section class="projects container">
-    <h2>Featured Projects</h2>
-    
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
     <div class="project">
       <h3>🏋️ FitByDrip</h3>
-      <p><strong>Tech Stack:</strong> Laravel + Vue.js</p>
-      <p>A fitness & lifestyle platform designed to help users manage workouts, nutrition, and progress tracking.</p>
-      <a href="#" target="_blank">🔗 Repository</a> | <a href="#" target="_blank">🌐 Demo (Coming soon)</a>
+      <p><strong>Stack:</strong> Laravel + Vue.js</p>
+      <p>A fitness & lifestyle platform for managing workouts, nutrition, and progress tracking.</p>
+      <a href="#">🔗 Repo</a>
     </div>
-
     <div class="project">
       <h3>🛒 EasySale</h3>
-      <p><strong>Tech Stack:</strong> NestJS + Java (Maven) + ReactJS + Multi-API Integration</p>
-      <p>An e-commerce automation platform integrating major seller APIs (Shopify, Amazon, Rakuten, Yahoo, Temu).</p>
-      <a href="#" target="_blank">🔗 Repository</a> | <a href="#" target="_blank">🌐 Demo (TBA)</a>
+      <p><strong>Stack:</strong> NestJS + Java (Maven) + ReactJS + API Integrations</p>
+      <p>An e-commerce automation platform integrating Shopify, Amazon, Rakuten, Yahoo, Temu APIs.</p>
+      <a href="#">🔗 Repo</a>
     </div>
   </section>
 
-  <section class="contact container">
-    <h2>Get in Touch</h2>
-    <p>💼 <a href="#">LinkedIn</a></p>
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
     <p>📧 <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+    <p>💼 <a href="#">LinkedIn</a></p>
   </section>
 
+  <!-- Footer -->
   <footer>
-    <div class="container">
-      <p>⭐️ Code is not just about solving problems — it’s about creating impact.</p>
-    </div>
+    <p>⭐ Code is not just about solving problems — it’s about creating impact.</p>
   </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
