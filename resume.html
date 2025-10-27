@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - David Lee Portfolio</title>
+  <title>Resume - David Lee Portfolio</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -36,7 +36,7 @@
   ======================================================== -->
 </head>
 
-<body class="index-page">
+<body class="resume-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
@@ -49,9 +49,9 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="resume.html">Resume</a></li>
+          <li><a href="resume.html" class="active">Resume</a></li>
           <!-- <li><a href="services.html">Services</a></li> -->
           <li><a href="portfolio.html">Portfolio</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -81,31 +81,99 @@
 
   <main class="main">
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-
-      <img src="assets/img/hero-bg.png" alt="" data-aos="fade-in">
-
-      <div class="container" data-aos="zoom-out" data-aos-delay="100">
-        <h2>David Lee</h2>
-        <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer"></span><span class="typed-cursor typed-cursor--blink"></span></p>
-        <div class="social-links">
-          <a href="#"><i class="bi bi-twitter-x"></i></a>
-          <a href="#"><i class="bi bi-facebook"></i></a>
-          <a href="#"><i class="bi bi-instagram"></i></a>
-          <a href="#"><i class="bi bi-linkedin"></i></a>
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>Resume</h1>
+              <p>This section provides a summary of my resume, including my professional experience, educational background, and technical skills. Based on my practical skills gained through various project experiences and professional roles, I will share my growth journey.</p>
+            </div>
+          </div>
         </div>
       </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Resume</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Page Title -->
 
-    </section><!-- /Hero Section -->
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Sumary</h3>
+
+            <div class="resume-item pb-0">
+              <h4>David Lee</h4>
+              <p><em>With over 5 years of hands-on experience, I have worked on diverse web projects from concept to deployment, building scalable, secure, and user-centric applications. I have a strong foundation in frontend development, backend architecture, and database optimization, ensuring seamless integration across the entire stack. I continuously seek to stay at the forefront of new technologies, particularly in cloud-native solutions, modern JavaScript frameworks, and performance-driven application design.</em></p>
+              
+            </div><!-- Edn Resume Item -->
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Master of Computer Science &amp; VLSI Design & Semiconductor Technology</h4>
+              <h5>2017 - 2019</h5>
+              <p><em>Nanyang Technological University of Singapore</em></p>
+              
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Bachelor of Computer Science &amp; VLSI Design & Semiconductor Technology</h4>
+              <h5>2014 - 2017</h5>
+              <p><em>Nanyang Technological University of Singapore</em></p>              
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Fullstack MERN Engineer</h4>
+              <h5>2022 - Present</h5>
+              <p><em>Dalian, China </em></p>
+              <ul>
+                <li>Developed an extension of the Solidity compiler for a private blockchain network</li>
+                <li>Developed smart contract deployment tool, Flight Deck, in Nodejs</li>
+                <li>Part of the Core of Engineers. Developed smart contracts for Ethereum platform to support the KYC/AML protocol</li>
+                <li>Developed test scripts to test all smart contracts in Truffle</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4> Fullstack MERN Engineer</h4>
+              <h5>2019 - 2022</h5>
+              <p><em>BTHRUST, Singapore</em></p>
+              <ul>
+                <li>Developed middleware for the Perseid accounting platform for the Bermuda government</li>
+                <li>Developed the mobile client used for digital identification</li>
+                <li>Developed the web-based application used to verify the digital identification</li>                
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
 
   </main>
 
   <footer id="footer" class="footer dark-background">
     <div class="container">
       <h3 class="sitename">David Lee</h3>
-      <p>I am a Full-Stack Developer with extensive experience in Web, Mobile, and Cloud technologies. I deliver secure, scalable, high-performance applications for clients worldwide. My strength is combining modern frameworks, backend systems, and cloud-native solutions to create seamless digital experiences.
-</p>
+      <p>Through continuous learning and challenge, we create better user experiences and more stable services.</p>
       <div class="social-links d-flex justify-content-center">
         <a href=""><i class="bi bi-twitter-x"></i></a>
         <a href=""><i class="bi bi-facebook"></i></a>
@@ -122,8 +190,6 @@
           <!-- You can delete the links only if you've purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-
-          <!-- <a href="https://bootstrapmade.com/"></a> -->
           Designed by David Lee Team
         </div>
       </div>
